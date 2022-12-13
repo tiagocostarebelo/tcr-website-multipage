@@ -4,66 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Website Title</title>
     <link rel="stylesheet" href="./css/resets.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navigation.css">
 </head>
 <body>    
     <header>
         <nav>
-            <div>LOGO</div>
-            <button class="nav-btn">
+            <div class="logo">LOGO</div>
+            <div class="nav-btn">
                 <div class="line1"></div>
                 <div class="line2"></div>
                 <div class="line3"></div>
-            </button>
+            </div>
             <ul class="nav-links">
                 <li class="nav-link">Home</li>
                 <li class="nav-link">About us</li>
                 <li class="nav-link">Services</li>
                 <li class="nav-link">Contact</li>
-            </ul>            
+            </ul>
         </nav>        
     </header>
     <main>
         <section id="hero-section">
-            <h1 class="section-title hero-title">Auto Service & Repair</h1>
+            <h1 class="section-title hero-title">Main title</h1>
             <p class="section-tagline hero-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, aspernatur.</p>
             <button class="btn hero-cta-btn">Contact us</button>
         </section>       
         <section id="about-us-section">
-            <h1 class="section-title about-us-title">About us</h1>
+            <h2 class="section-title about-us-title">About us</h2>
             <p class="section-tagline about-us-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam illo voluptate, consequatur sapiente, tempora id optio non saepe quam nesciunt reiciendis voluptas debitis accusamus, animi quidem molestiae hic ullam aliquam.</p>
             <button class="btn about-us-btn">Discover more</button>
         </section> 
         <section id="services-section">
-            <article class="services-header">
-                <h1 class="section-title services-title">What we do</h1>
-                <p class="section-tagline services-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam illo voluptate, consequatur sapiente, tempora id optio non saepe quam nesciunt reiciendis voluptas debitis accusamus, animi quidem molestiae hic ullam aliquam.</p>
-            </article>
-            <article class="services-cards">
+            <h2 class="section-title services-title">What we do</h2>
+            <p class="section-tagline services-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam illo voluptate, consequatur sapiente, tempora id optio non saepe quam nesciunt reiciendis voluptas debitis accusamus, animi quidem molestiae hic ullam aliquam.</p>
+            <div class="services-cards">
                 <div class="service-card">
-                    <img src="" alt="">
-                    <button class="btn service-card-title-btn">Service title</button>
+                    <img src="" alt="service-name">
+                    <button class="btn service-card-title-btn">Service name</button>
                 </div>
                 <div class="service-card">
-                    <img src="" alt="">
-                    <button class="btn service-card-title-btn">Service title</button>
+                    <img src="" alt="service-name">
+                    <button class="btn service-card-title-btn">Service name</button>
                 </div>
                 <div class="service-card">
-                    <img src="" alt="">
-                    <button class="btn service-card-title-btn">Service title</button>
+                    <img src="" alt="service-name">
+                    <button class="btn service-card-title-btn">Service name</button>
                 </div>
                 <div class="service-card">
-                    <img src="" alt="">
-                    <button class="btn service-card-title-btn">Service title</button>
+                    <img src="" alt="service-name">
+                    <button class="btn service-card-title-btn">Service name</button>
                 </div>
-            </article>
+            </div>
         </section>    
         <section id="contact-us-section">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30793.30866107695!2d-45.464644903255454!3d61.15947959110732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4eabe1a5a82ad921%3A0x50f11a07e274158d!2sNarsarsuaq%2C%20Greenland!5e0!3m2!1sen!2suk!4v1670543805602!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <article class="contact-us-header">
-                <h1 class="section-title contact-us-title">Contact us</h1>
+            <h2 class="section-title contact-us-title">Contact us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30793.30866107695!2d-45.464644903255454!3d61.15947959110732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4eabe1a5a82ad921%3A0x50f11a07e274158d!2sNarsarsuaq%2C%20Greenland!5e0!3m2!1sen!2suk!4v1670543805602!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="location-map"></iframe>
+            <article class="contact-us-header">                
                 <p class="section-tagline contact-us-paragraph">Address Line 1</p>
                 <p class="section-tagline contact-us-paragraph">Address Line 2</p>
                 <p class="section-tagline contact-us-paragraph">Address Line 3</p>
@@ -72,7 +71,29 @@
         </section> 
     </main>
     <footer>    
-        
+        <section class="footer-left">
+            <div class="logo">LOGO</div>
+            <ul class="footer-social-icons">
+                <li class="footer-social-icon"><a href="#" class="social-icon-link"></a></li>
+                <li class="footer-social-icon"><a href="#" class="social-icon-link"></a></li>
+                <li class="footer-social-icon"><a href="#" class="social-icon-link"></a></li>
+            </ul>
+        </section>
+        <section class="footer-right">
+            <h3 class="footer-nav-title">Site</h3>
+            <ul class="footer-nav">                
+                <li class="footer-nav-link">Home</li>
+                <li class="footer-nav-link">Services</li>
+                <li class="footer-nav-link">Contact</li>
+                <li class="footer-nav-link">About us</li>
+            </ul>
+            <h3 class="footer-nav-title">Useful</h3>
+            <ul class="footer-usefuls">
+                <li class="footer-useful-link">Contact</li>
+                <li class="footer-useful-link">Privacy & Policy</li>
+                <li class="footer-useful-link">Terms of Service</li>
+            </ul>
+        </section>             
     </footer>
     <script src="./js/script.js"></script>
 </body>
