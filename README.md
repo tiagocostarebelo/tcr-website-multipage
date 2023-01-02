@@ -1,8 +1,6 @@
 # Multi page responsive Website
 
-Personal project focused on building a modern and fully responsive multipage website for Garage or Automobile mechanical business.
-Core will be using HTML, CSS and JavaScript, but may expand in the future if required.
-
-Will expand further while I code.
+Personal project, building a responsive and modern multi page website using HTML, CSS and JavaScript to begin with. 
+May expand in the future if a back end is required.
 
 
