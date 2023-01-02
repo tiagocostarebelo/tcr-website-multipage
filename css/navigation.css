@@ -1,0 +1,60 @@
+/* HAMBURGER MENU BUTTON */
+.nav-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.nav-btn .line1,
+.nav-btn .line2,
+.nav-btn .line3 {
+    width: 30px;
+    height: 4px;
+    background-color: black;
+    border-radius:5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-btn > div:not(:first-child){
+    margin-top: 3px;
+}
+
+/* HAMBURGUER MENU ACTIVE */
+.nav-btn.active .line1 {
+    -webkit-transform: translateY(10px) rotate(-45deg);
+    -moz-transform: translateY(10px) rotate(-45deg);
+    -o-transform: translateY(10px) rotate(-45deg);
+    transform: translateY(10px) rotate(-45deg);
+}
+
+.nav-btn.active .line2 {
+    width: 0%;
+    opacity: 0;
+}
+
+.nav-btn.active .line3 {
+    -webkit-transform: translateY(-4px) rotate(45deg);
+    -moz-transform: translateY(-4px) rotate(45deg);
+    -o-transform: translateY(-4px) rotate(45deg);
+    transform: translateY(-4px) rotate(45deg);
+}
+
+
+/* NAVIGATION BAR */
+header {
+    padding: 10px;
+    border-bottom: 2px solid blue;
+}
+
+header nav {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav .nav-links {
+    display: none;
+}
+
